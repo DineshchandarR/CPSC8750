@@ -378,17 +378,17 @@
   text-align: center;
 }
 
-/* .main__img--card {
-  margin: 10px;
-  height: 500px;
-  width: 500px;
+.main__img--card2 {
+  margin: 5px;
+  height: 300px;
+  width: 300px;
   border-radius: 4px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   color: #fff;
   background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
-} */
+}
 
 .fa-heart {
   font-size: 14rem;
@@ -736,6 +736,6 @@
 .img{
   width:150px;
   height:185px;
-  text-align: left;
-
+  text-align: center;
+  /* text-align: left; */
 }
