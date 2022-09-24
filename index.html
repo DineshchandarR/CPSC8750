@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Scroll Website</title>
+    <title>Dineshchandar-R_Profile</title>
     <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
@@ -16,7 +16,7 @@
     <!-- Navbar Section -->
     <nav class="navbar">
       <div class="navbar__container">
-        <a href="#home" id="navbar__logo">COLOR</a>
+        <a href="#home" id="navbar__logo"><img src="./Imgs/DCR.png" alt="MainLogo class" class="logo"></a>
         <div class="navbar__toggle" id="mobile-menu">
           <span class="bar"></span> <span class="bar"></span>
           <span class="bar"></span>
@@ -29,9 +29,8 @@
             <a href="#about" class="navbar__links" id="about-page">About</a>
           </li>
           <li class="navbar__item">
-            <a href="#services" class="navbar__links" id="services-page"
-              >Services</a
-            >
+            <a href="#experience" class="navbar__links" id="experience-page"
+              >Experience</a>
           </li>
           <li class="navbar__btn">
             <a href="#sign-up" class="button" id="signup">Sign Up</a>
@@ -43,8 +42,12 @@
     <!-- Hero Section -->
     <div class="hero" id="home">
       <div class="hero__container">
-        <h1 class="hero__heading">Choose your <span>colors</span></h1>
-        <p class="hero__description">Unlimited Possibilities</p>
+        <h1 class="hero__heading"> Dineshchandar <span> Ravichandran</span></h1>
+        <p class="typewrite" data-period="2000" data-type='[ "M.S. in C.S., Clemson University", "Data Science Enthusiast","G.A @ Clemson AI-LAB " ,"EX-Amazon Sr.PMT-Intern" ]' >
+        <span class="wrap"></span>
+        </p>
+      
+        <!-- <p class="hero__description">Unlimited Possibilities</p> -->
         <button class="main__btn"><a href="#">Explore</a></button>
       </div>
     </div>
@@ -53,56 +56,136 @@
     <div class="main" id="about">
       <div class="main__container">
         <div class="main__img--container">
-          <div class="main__img--card"><i class="fas fa-layer-group"></i></div>
+          <div class="main__img--card"><img src="./Imgs/IDfinal2.png" alt="Profile Image" class="profile_img"></div>
         </div>
         <div class="main__content">
-          <h1>What do we do?</h1>
-          <h2>We help businesses scale</h2>
-          <p>Schedule a call to learn more about our services</p>
-          <button class="main__btn"><a href="#">Schedule Call</a></button>
+          <h2>About Me</h2>
+          <p>Aspiring Data Scientist and an award-winning product manager with experience in ML/DL applications, Computer Vision and Product Management. Aim to use my strong project management, analytics skills, detail-oriented and time-bound abilities to achieve the organization's goals.</p>
+          <button class="main__btn"><a href="https://s3.amazonaws.com/symp.csm.usprod/clemson/files/414/4149e25eb661714ef9b7557035be3c7e.pdf?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAID3RBESXBCESHUGA%2F20220924%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220924T042621Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=36de3686843fc45160fb6fe57adcdc348c490e080500efcb1992a4dea17dd2ca"target="_blank"> Resume </a></button>
         </div>
       </div>
     </div>
 
-    <!-- Services Section -->
-    <div class="services" id="services">
-      <h1>Our Services</h1>
-      <div class="services__wrapper">
-        <div class="services__card">
-          <h2>Custom Colorways</h2>
-          <p>AI Powered technology</p>
-          <div class="services__btn"><button>Get Started</button></div>
+    <!-- Experience Section -->
+    <div class="experience" id="experience">
+      <h1>PROFESSIONAL EXPERIENCE</h1>
+      <div class="experience__wrapper">
+        <div class="experience__card">
+          <h2>GRADUATE ASSISTANT</h2>
+          <h3>Clemson University (AI-LAB) | Clemson, South Carolina | March 2022- Till Date</h3>
+          <p>
+            <ul>
+              <li>Working on deep learning research to develop a cancer detection model using Digital breast tomosynthesis images by performing: Image Classification, Object Detection, and Image segmentation.</li>
+              <li><u>Technology used:</u> Python, PyTorch, TensorFlow, Faster RCNN.</li>
+              <li><u>Result:</u> Research On-going.</li>
+            </ul>
+          </p>
+          <div class="experience__btn"></div>
         </div>
-        <div class="services__card">
-          <h2>Are you Ready?</h2>
-          <p>Take the lepa</p>
-          <div class="services__btn"><button>Get Started</button></div>
+        <div class="experience__card">
+          <h2>SR.PRODUCT MANAGER TECHNICAL-INTERN</h2>
+          <h3>Amazon.com Services LLC| Seattle, Washington | May 2022 to Aug' 2022</h3>
+          <p>
+            <ul>
+              <li>Worked on AWS WorkDocs, to design a migration feature.
+                </li>
+              <li><u> Skills:</u> Feature proposal, Product analysis, Product Design, Opportunity Identification, Customer and Stakeholder management, and coordination.</li>
+              <li><u>Result:</u> Successfully achieved the primary goal of designing and proposing the migration feature, along with buy-in from stakeholders. Additionally, identified and proposed other features to improve customer experience using ML models.</li>
+            </ul>
+          </p>
+          <div class="experience__btn"></div>
         </div>
-        <div class="services__card">
-          <h2>Full Gradients</h2>
-          <p>100 Combinations</p>
-          <div class="services__btn"><button>Get Started</button></div>
+        <div class="experience__card">
+          <h2>PRODUCT MANAGER</h2>
+          <h3>Atom Technologies Ltd | Mumbai, India | Sep' 2017 to Jul' 2021</h3>
+          <p>
+            <ul>
+              <li>Atom technologies, an NTT DATA company, is a leading end-to-end payment solution provider with over 150,000 domestic and international clients.</li>
+              <li><u>Skills:</u> : Developing and designing business architecture, business strategy, trend, risk, and system-impact analysis, team management, coordination with multiple cross-functional teams, end-to-end project management using SDLC methods (Agile, Prototyping, and Waterfall), and Business visualization using Power BI.</li>
+              <li><u>Result:</u> Achieved multiple successful payment product integrations, aiding integration with the new business and improving the overall transaction volumes.
+                Headed and designed the TITAN project from a product perspective, streamlining all core processes and saving 4-6 person-hours daily. Also eliminated manual activity for five processes by implementing system-driven processes and reduced process time for some applications by 60%—Awarded Best Technology Executive for my contribution to the project.</li>
+            </ul>
+          </p>
+          <div class="experience__btn"></div>
         </div>
-        <div class="services__card">
-          <h2>Infinite Choices</h2>
-          <p>1000's of colors</p>
-          <div class="services__btn"><button>Get Started</button></div>
+        <div class="experience__card">
+          <h2>OTHERS:</h2>
+          
+          <p>
+            <ul>
+              <li> WORKSHOP ENGINEER at Rhine Exports Pvt. Ltd | India | Nov' 2015 to Feb' 2017 </li>
+              <li> PROJECT TRAINEE/INTERN at Bhabha Atomic Research Center| India | Apr' 2014 to May 2014 </li>
+            </ul>
+          </p>
+          <div class="experience__btn"></div>
         </div>
       </div>
     </div>
 
-    <!-- Features Section -->
-    <div class="main" id="sign-up">
+    <!-- Projects Section -->
+    <div class="experience" id="Projects">
+      <h1>ACADEMIC PROJECTS</h1>
+      <div class="experience__wrapper">
+        <div class="experience__card">
+          <h2> Video Caption using S2S model </h2>
+          <h3><u>Platform:</u>Python</h3>
+          <p>
+            <ul>
+              <li><u>Description:</u> Implemented a sequential-to-sequential model with an attention mechanism to generate captions for input videos.</li>
+              <li><u>Result:</u> The model was able to achieve BLEU score of 0.71.</li>
+            </ul>
+          </p>
+          <div class="experience__btn"><button><href src= "#">Know More</href></button></div>
+        </div>
+        <div class="experience__card">
+          <h2> Medical Company AWS Architecture Design.  </h2>
+          <h3><u>Platform:</u>Amazon Web Services</h3>
+          <p>
+            <ul>
+              <li><u>Description:</u> Designed a detailed architecture and deployed a cloud solution for a medical startup company (SaaS) looking to shift their existing application to AWS</li>
+            </ul>
+          </p>
+          <div class="experience__btn"><button><href src= "#">Know More</href></button></div>
+        </div>
+        <div class="experience__card">
+          <h2> Credit-card fraud detection </h2>
+          <h3><u>Platform:</u>Python</h3>
+          <p>
+            <ul>
+              <li><u>Description:</u> Implemented an unsupervised model using Self Organizing Maps to predict fraudulent applications.</li>
+            </ul>
+          </p>
+          <div class="experience__btn"><button><href src= "#">Know More</href></button></div>
+        </div>
+        <div class="experience__card">
+          <h2>Video Movie Recommendation  </h2>
+          <h3><u>Platform:</u>Python</h3>
+          <p>
+            <ul>
+              <li><u>Description:</u> Implemented Deep-learning models to recommend movies to the users based on movie categories and user ratings using Boltzmann machine and Auto-encoders methods.</li>
+            </ul>
+          </p>
+          <div class="experience__btn"><button><href src= "#">Know More</href></button></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Intrest Section -->
+    <div class="main" id="Intrest">
       <div class="main__container">
         <div class="main__content">
-          <h1>Join Our Team</h1>
-          <h2>Sign Up Today</h2>
-          <p>See what makes us different</p>
-          <button class="main__btn"><a href="#">Sign Up</a></button>
+          <h1>Intrest</h1>
+          <p><ul>
+            <li> Working Deep-Learning and Machine Learning </li>
+            <li> Working on Java based video game projects </li>
+            <li> Developing Cloud Architecture in AWS  </li>
+          </ul>
+        </p>
+          <!-- <button class="main__btn"><a href="#">Sign Up</a></button> -->
         </div>
         <div class="main__img--container">
           <div class="main__img--card" id="card-2">
-            <i class="fas fa-users"></i>
+            <img src="./Imgs/heart-solid.svg" alt="Intrest Image" class="img"></div>
           </div>
         </div>
       </div>
