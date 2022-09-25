@@ -18,6 +18,7 @@ const highlightMenu = () => {
   const experienceMenu = document.querySelector('#experience-page');
   const projectMenu = document.querySelector('#project-page');
   const eduMenu = document.querySelector('#edu-page');
+  const skillsMenu = document.querySelector('#skills-page');
   const awardsMenu = document.querySelector('#awards-page');
   let scrollPos = window.scrollY;
   // console.log(scrollPos);
@@ -58,13 +59,21 @@ const highlightMenu = () => {
     aboutMenu.classList.remove('highlight');
     projectMenu.classList.remove('highlight');
     eduMenu.classList.add('highlight');
-    awardsMenu.classList.remove('highlight');
+    skillsMenu.classList.remove('highlight');
     return;
   }
-  else if (window.innerWidth > 960 && scrollPos < 6800) 
+  else if (window.innerWidth > 960 && scrollPos < 5000) 
   {
     projectMenu.classList.remove('highlight');
     eduMenu.classList.remove('highlight');
+    skillsMenu.classList.add('highlight');
+    awardsMenu.classList.remove('highlight');
+    return;
+  }
+  else if (window.innerWidth > 960 && scrollPos < 6700) 
+  {
+    eduMenu.classList.remove('highlight');
+    skillsMenu.classList.remove('highlight');
     awardsMenu.classList.add('highlight');
     return;
   }
