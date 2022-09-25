@@ -44,7 +44,7 @@ const highlightMenu = () => {
     projectMenu.classList.remove('highlight');
     return;
   }
-  else if (window.innerWidth > 960 && scrollPos < 3000) 
+  else if (window.innerWidth > 960 && scrollPos < 3200) 
   {
     experienceMenu.classList.remove('highlight');
     aboutMenu.classList.remove('highlight');
@@ -52,7 +52,7 @@ const highlightMenu = () => {
     eduMenu.classList.remove('highlight');
     return;
   }
-  else if (window.innerWidth > 960 && scrollPos < 4000) 
+  else if (window.innerWidth > 960 && scrollPos < 3800) 
   {
     experienceMenu.classList.remove('highlight');
     aboutMenu.classList.remove('highlight');
@@ -61,7 +61,7 @@ const highlightMenu = () => {
     awardsMenu.classList.remove('highlight');
     return;
   }
-  else if (window.innerWidth > 960 && scrollPos < 4500) 
+  else if (window.innerWidth > 960 && scrollPos < 6800) 
   {
     projectMenu.classList.remove('highlight');
     eduMenu.classList.remove('highlight');
