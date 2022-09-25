@@ -632,6 +632,11 @@
 .project__card h2 {
   text-align: center;
 }
+.project__card a {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
 .project__card h3 {
   text-align: center;
   font-size: 15px;
@@ -681,7 +686,7 @@
 .project__card:hover {
   transform: scale(1.075);
   transition: 0.3s ease-in;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 @media screen and (max-width: 1300px) {
