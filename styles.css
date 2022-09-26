@@ -1060,3 +1060,117 @@
 th, td {
   padding: 15px;
 }
+
+.award {
+  background-color: #131313;
+  padding: 5rem 0;
+}
+
+
+.award__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 90%;
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  padding: 1rem 0;
+}
+
+.award__content p {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 50;
+  text-align: left;
+}
+
+
+.award__content {
+  color: #fff;
+  width: 100%;
+}
+
+.award__content h1 {
+  background-color: #ff3c00;
+  background-image: linear-gradient(to top, #ff08ff 0%, #00eeff 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  margin-bottom: 5rem;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.award__content h2 {
+  font-size: 3rem;
+  background: #ff8177; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #9114ff,
+    #da22ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #8f0eff,
+    #da22ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+.award__content h3 {
+  font-size: 2rem;
+  background: #ff8177; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #14e4ff,
+    #00f56e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #14e4ff,
+    #00f56e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.award__content p {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  font-weight: 50;
+  text-align: center;
+}
+.award__content p1 {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-size: 2rem;
+  font-weight: 60;
+  text-align: center;
+  background: #ff8177; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #14e4ff,
+    #00f56e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #14e4ff,
+    #00f56e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}

@@ -43,40 +43,52 @@ const highlightMenu = () => {
     experienceMenu.classList.add('highlight');
     aboutMenu.classList.remove('highlight');
     projectMenu.classList.remove('highlight');
+    awardsMenu.classList.remove('highlight');
     return;
   }
-  else if (window.innerWidth > 960 && scrollPos < 3200) 
+  else if (window.innerWidth > 960 && scrollPos < 2700) 
+  {
+    aboutMenu.classList.remove('highlight');
+    experienceMenu.classList.remove('highlight');
+    skillsMenu.classList.remove('highlight');
+    awardsMenu.classList.add('highlight');
+    projectMenu.classList.remove('highlight');
+    return;
+  }
+  else if (window.innerWidth > 960 && scrollPos < 3590) 
   {
     experienceMenu.classList.remove('highlight');
     aboutMenu.classList.remove('highlight');
     projectMenu.classList.add('highlight');
     eduMenu.classList.remove('highlight');
+    awardsMenu.classList.remove('highlight');
     return;
   }
-  else if (window.innerWidth > 960 && scrollPos < 3800) 
+  else if (window.innerWidth > 960 && scrollPos < 4400) 
   {
-    experienceMenu.classList.remove('highlight');
     aboutMenu.classList.remove('highlight');
+    experienceMenu.classList.remove('highlight');
+    awardsMenu.classList.remove('highlight');
     projectMenu.classList.remove('highlight');
     eduMenu.classList.add('highlight');
     skillsMenu.classList.remove('highlight');
     return;
   }
-  else if (window.innerWidth > 960 && scrollPos < 5000) 
+  else if (window.innerWidth > 960 && scrollPos < 6700) 
   {
+    awardsMenu.classList.remove('highlight');
     projectMenu.classList.remove('highlight');
     eduMenu.classList.remove('highlight');
     skillsMenu.classList.add('highlight');
-    awardsMenu.classList.remove('highlight');
     return;
   }
-  else if (window.innerWidth > 960 && scrollPos < 6700) 
-  {
-    eduMenu.classList.remove('highlight');
-    skillsMenu.classList.remove('highlight');
-    awardsMenu.classList.add('highlight');
-    return;
-  }
+  // else if (window.innerWidth > 960 && scrollPos < 6700) 
+  // {
+  //   eduMenu.classList.remove('highlight');
+  //   skillsMenu.classList.remove('highlight');
+  //   awardsMenu.classList.add('highlight');
+  //   return;
+  // }
 
   if ((elem && window.innerWIdth < 960 && scrollPos < 600) || elem) {
     elem.classList.remove('highlight');
