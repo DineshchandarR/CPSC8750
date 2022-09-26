@@ -561,7 +561,6 @@
 .experience__card:hover {
   transform: scale(1.075);
   transition: 0.3s ease-in;
-  cursor: pointer;
 }
 
 @media screen and (max-width: 1300px) {
